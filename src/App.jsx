@@ -433,10 +433,49 @@ export default function App() {
             <p className="section-desc">Explore iconic Himalayan landmarks, sacred shrines, and alpine trails minutes from our doorstep.</p>
           </div>
           <div className="nearby-grid">
-            <article className="nearby-card"><span className="nearby-dist">7 km · 15 mins</span><h3>Auli Ropeway & Ski Meadows</h3><p>Ride Asia’s longest cable car to panoramic oak-fringed ski slopes overlooking Nanda Devi.</p></article>
-            <article className="nearby-card"><span className="nearby-dist">3.5 km · 10 mins</span><h3>Narsingh Temple & Kalpavriksha</h3><p>Visit the ancient winter seat of Lord Badrinath and the 1,200-year-old sacred mulberry tree.</p></article>
-            <article className="nearby-card"><span className="nearby-dist">48 km · Scenic Drive</span><h3>Badrinath Temple & Mana Village</h3><p>Journey along the Alaknanda river to the revered Char Dham shrine and India’s last border village.</p></article>
-            <article className="nearby-card"><span className="nearby-dist">22 km · Trailhead</span><h3>Valley of Flowers & Hemkund Sahib</h3><p>Base yourself in comfort before trekking into UNESCO-listed alpine meadows and glacial lakes.</p></article>
+            <article className="nearby-card">
+              <figure className="nearby-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Auli-slopes.jpg" alt="Snow-covered ski slopes in Auli" loading="lazy" />
+              </figure>
+              <div className="nearby-card-content">
+                <span className="nearby-dist">7 km · 15 mins</span>
+                <h3>Auli Ropeway & Ski Meadows</h3>
+                <p>Ride Asia’s longest cable car to panoramic oak-fringed ski slopes overlooking Nanda Devi.</p>
+              </div>
+            </article>
+            <article className="nearby-card">
+              <figure className="nearby-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Narshing_Devta_Temple%2C_Joshimath.jpg" alt="Narsingh Devta Temple in Joshimath" loading="lazy" />
+                <figcaption>
+                  Photo: <a href="https://commons.wikimedia.org/wiki/File:Narshing_Devta_Temple,_Joshimath.jpg" target="_blank" rel="noopener noreferrer">Merrylynns</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+                </figcaption>
+              </figure>
+              <div className="nearby-card-content">
+                <span className="nearby-dist">3.5 km · 10 mins</span>
+                <h3>Narsingh Temple & Kalpavriksha</h3>
+                <p>Visit the ancient winter seat of Lord Badrinath and the 1,200-year-old sacred mulberry tree.</p>
+              </div>
+            </article>
+            <article className="nearby-card">
+              <figure className="nearby-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Badrinath_Temple_Tapt_Kund_hot_springs.jpg" alt="Tapt Kund hot springs at Badrinath Temple" loading="lazy" />
+              </figure>
+              <div className="nearby-card-content">
+                <span className="nearby-dist">48 km · Scenic Drive</span>
+                <h3>Badrinath Temple & Mana Village</h3>
+                <p>Journey along the Alaknanda river to the revered Char Dham shrine and India’s last border village.</p>
+              </div>
+            </article>
+            <article className="nearby-card">
+              <figure className="nearby-media">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Nanda_Devi_Valley_of_Flowers_National_Park.jpg" alt="Scenic view of the Valley of Flowers in Nanda Devi National Park" loading="lazy" />
+              </figure>
+              <div className="nearby-card-content">
+                <span className="nearby-dist">22 km · Trailhead</span>
+                <h3>Valley of Flowers & Hemkund Sahib</h3>
+                <p>Base yourself in comfort before trekking into UNESCO-listed alpine meadows and glacial lakes.</p>
+              </div>
+            </article>
           </div>
         </div>
       </section>

@@ -710,7 +710,33 @@ h3 { font-size: 1.65rem; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.nearby-media {
+  margin: 0;
+}
+
+.nearby-media img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.nearby-media figcaption {
+  padding: 0.5rem 1.25rem 0;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+.nearby-media figcaption a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.nearby-card-content {
+  padding: 1rem 1.5rem 1.5rem;
 }
 
 .nearby-dist {
